@@ -11,6 +11,7 @@ specifiers:
   react: ^18.2.0
   react-dom: ^18.2.0
   react-scripts: 5.0.1
+  sass: ^1.55.0
   typescript: ^4.8.4
   web-vitals: ^2.1.4
 
@@ -24,7 +25,8 @@ dependencies:
   '@testing-library/user-event': 13.5.0_aaq3sbffpfe3jnxzm2zngsddei
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-scripts: 5.0.1_ub74iwwfmvnvzieguokpmxbmpy
+  react-scripts: 5.0.1_7tsfv4zwsxbpuu6larobvvbwxa
+  sass: 1.55.0
   typescript: 4.8.4
   web-vitals: 2.1.4
 
@@ -5450,6 +5452,10 @@ packages:
     resolution: {integrity: sha1-C5Fp5bHSITerp9Q/ioGkld0bYtw=}
     dev: false
 
+  /immutable/4.1.0:
+    resolution: {integrity: sha1-95V4fw23gBgzB7nrIJH8rB9vr+8=}
+    dev: false
+
   /import-fresh/3.3.0:
     resolution: {integrity: sha1-NxYsJfy566oublPVtNiM4X2eDCs=}
     engines: {node: '>=6'}
@@ -8153,7 +8159,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /react-scripts/5.0.1_ub74iwwfmvnvzieguokpmxbmpy:
+  /react-scripts/5.0.1_7tsfv4zwsxbpuu6larobvvbwxa:
     resolution: {integrity: sha1-YoXb1lqLpuScqNZRzjBkWm2YAAM=}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -8202,7 +8208,7 @@ packages:
       react-refresh: 0.11.0
       resolve: 1.22.1
       resolve-url-loader: 4.0.0
-      sass-loader: 12.6.0_webpack@5.74.0
+      sass-loader: 12.6.0_sass@1.55.0+webpack@5.74.0
       semver: 7.3.8
       source-map-loader: 3.0.1_webpack@5.74.0
       style-loader: 3.3.1_webpack@5.74.0
@@ -8522,7 +8528,7 @@ packages:
     resolution: {integrity: sha1-JnVVOXSyeWTHVWKt472F15h58XM=}
     dev: false
 
-  /sass-loader/12.6.0_webpack@5.74.0:
+  /sass-loader/12.6.0_sass@1.55.0+webpack@5.74.0:
     resolution: {integrity: sha1-UUg2LI4s3UuVDzxjrF0W2/7Te8s=}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
@@ -8543,7 +8549,18 @@ packages:
     dependencies:
       klona: 2.0.5
       neo-async: 2.6.2
+      sass: 1.55.0
       webpack: 5.74.0
+    dev: false
+
+  /sass/1.55.0:
+    resolution: {integrity: sha1-DE08KTz+j4oujTtmbhzxv/gGXRw=}
+    engines: {node: '>=12.0.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      immutable: 4.1.0
+      source-map-js: 1.0.2
     dev: false
 
   /sax/1.2.4:
